@@ -1,3 +1,22 @@
+
+local targetGameId = 15230308693  -- Replace with your game's ID
+
+if game.GameId == targetGameId then
+    print("Game ID matches! Loading script...")
+
+    -- Your script here
+    local function RunScript()
+        print("Your script is running!")
+        -- Add your script logic here
+    end
+
+    RunScript()
+else
+    print("Game ID does not match. Script not loaded.")
+end
+
+
+
 --[[
  .____                  ________ ___.    _____                           __                
  |    |    __ _______   \_____  \\_ |___/ ____\_ __  ______ ____ _____ _/  |_  ___________ 
